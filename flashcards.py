@@ -3,7 +3,7 @@
 # flashcards.py
 import json
 
-def read_json(file_path): 
+def read_json(file_path):
     '''Function that reads json file and returns content'''
     try:
         with open(file_path, 'r', encoding='utf-8') as f:
